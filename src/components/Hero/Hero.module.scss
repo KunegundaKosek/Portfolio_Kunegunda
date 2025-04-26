@@ -1,32 +1,10 @@
-@keyframes slideInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-50px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: scale(0.95);
-  }
-
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
+@import '../../assets/animation/animation.scss';
 
 .hero {
   padding-top: 7rem;
   padding-bottom: 5rem;
   background: linear-gradient(to bottom right, #eff6ff, #e0e7ff);
-  min-height: 100vh;
+  min-height: 0vh;
 }
 
 .container {
@@ -76,7 +54,6 @@
 }
 
 .buttonGroup {
-
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -140,23 +117,6 @@
   border-radius: 50%;
   opacity: 0.1;
   animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0% {
-    transform: scale(0.95);
-    opacity: 0.7;
-  }
-
-  70% {
-    transform: scale(1);
-    opacity: 0.1;
-  }
-
-  100% {
-    transform: scale(0.95);
-    opacity: 0.7;
-  }
 }
 
 .iconBox {

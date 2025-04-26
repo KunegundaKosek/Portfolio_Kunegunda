@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
       const offsetPosition = element.offsetTop - 80;
       window.scrollTo({
         top: offsetPosition,
-        behavior: 'smooth'
+        behavior: 'smooth',
       });
     }
   };
@@ -24,17 +24,14 @@ const Hero: React.FC = () => {
               Frontend <span>Developer</span>
             </h1>
             <p>
-              Crafting beautiful, responsive web experiences with modern technologies.
-              Specialized in creating user-friendly interfaces that deliver exceptional
-              user experiences.
+              Crafting beautiful, responsive web experiences with modern technologies. Specialized
+              in creating user-friendly interfaces that deliver exceptional user experiences.
             </p>
             <div className={styles.buttonGroup}>
               <button className={styles.primary} onClick={scrollToProjects}>
                 Zobacz projekty
               </button>
-              <button className={styles.secondary}>
-                Kontakt
-              </button>
+              <button className={styles.secondary}>Kontakt</button>
             </div>
           </div>
 

@@ -26,7 +26,7 @@ const Header: React.FC = () => {
       const offsetPosition = element.offsetTop - 80;
       window.scrollTo({
         top: offsetPosition,
-        behavior: 'smooth'
+        behavior: 'smooth',
       });
     }
   };
@@ -51,10 +51,7 @@ const Header: React.FC = () => {
             </button>
           </nav>
 
-          <button 
-            className={classes.mobileButton}
-            onClick={() => setIsOpen(!isOpen)}
-          >
+          <button className={classes.mobileButton} onClick={() => setIsOpen(!isOpen)}>
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
