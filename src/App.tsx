@@ -1,10 +1,15 @@
-import styles from './App.module.scss';
 import Header from './components/Header/Header';
+import classes from './App.module.scss';
+import Hero from './components/Hero/Hero';
 
 function App() {
   return (
-    <div>
+    <div className={classes.app}>
       <Header />
+
+      <main>
+        <Hero />
+      </main>
     </div>
   );
 }

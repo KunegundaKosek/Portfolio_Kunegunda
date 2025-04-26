@@ -41,13 +41,13 @@ const Header: React.FC = () => {
 
           <nav className={classes.desktopNav}>
             <button onClick={() => scrollToSection('technologies')} className={classes.navLink}>
-              Technologies
+              Technologie
             </button>
             <button onClick={() => scrollToSection('projects')} className={classes.navLink}>
-              Projects
+              Projekty
             </button>
             <button onClick={() => scrollToSection('certificates')} className={classes.navLink}>
-              Certificates
+              Certyfikaty
             </button>
           </nav>
 
@@ -62,13 +62,13 @@ const Header: React.FC = () => {
         {isOpen && (
           <div className={classes.mobileMenu}>
             <button onClick={() => scrollToSection('technologies')} className={classes.mobileLink}>
-              Technologies
+              Technologie
             </button>
             <button onClick={() => scrollToSection('projects')} className={classes.mobileLink}>
-              Projects
+              Projekty
             </button>
             <button onClick={() => scrollToSection('certificates')} className={classes.mobileLink}>
-              Certificates
+              Certyfikaty
             </button>
           </div>
         )}
