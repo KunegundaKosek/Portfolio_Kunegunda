@@ -2,6 +2,7 @@ import Header from './components/Header/Header';
 import classes from './App.module.scss';
 import Hero from './components/Hero/Hero';
 import Technologies from './components/Technologies/Technologies';
+import Projects from './components/Projects/Projects';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <main>
         <Hero />
         <Technologies />
+        <Projects />
       </main>
     </div>
   );
